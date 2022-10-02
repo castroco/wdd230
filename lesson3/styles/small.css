@@ -3,6 +3,10 @@
     width: 500px;
     max-width: 100%;
 }
+#logo {
+    width: 200px;
+    max-width: 100%;
+}
 body {
     font-family: 'Roboto', sans-serif;
 }
