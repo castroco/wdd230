@@ -1,0 +1,168 @@
+header {
+    font-family: 'Open Sans', sans-serif;
+    display: grid;
+    grid-template-columns: 0.6fr 4.2fr 1.2fr 0.8fr;
+    align-items: center;
+    justify-items: center;
+    grid-template-rows: auto;
+    grid-template-areas: 
+    "faviconImg title socialNetwork generalNav"
+    "timeInfo timeInfo timeInfo timeInfo"
+    "colapsableNav colapsableNav colapsableNav colapsableNav";
+
+    background-color: #3a0ca3;
+    color: #4cc9f0;
+}
+
+.icons {
+    width: 30px;
+    margin-left: 0px;
+}
+
+#faviconImg {
+    grid-area: faviconImg;
+    width: 60px;
+    margin: 0 10px 0 10px;
+}
+#title {
+    grid-area: title;
+}
+
+#title h1 {
+    margin: 10px 0;
+}
+
+#title h2 {
+    font-size: 1em;
+    margin: 5px 0;
+}
+#socialNetwork {
+    grid-area: socialNetwork;
+}
+
+#generalNav {
+    grid-area: generalNav;
+}
+#colapsableNav {
+    grid-area: colapsableNav;
+    justify-self: stretch;
+}
+
+#generalNav ul, #colapsableNav ul {
+    padding: 0;
+    margin: 5px 0 0 0;
+}
+
+#timeInfo {
+    grid-area: timeInfo;
+}
+
+
+
+.navigationButton li {
+	display: block;
+}
+.navigation li {
+	display: none;
+}
+
+.navigation li a {
+    text-decoration: none;
+}
+.navigationButton li a {
+    text-decoration: none;
+    color: #4cc9f0;
+}
+
+.responsive li {
+	display: block;
+    list-style-type: none;
+    background-color: #4cc9f0;
+}
+.responsive li a {
+	display: block;
+    padding: 5px 0;
+    text-align: center;
+}
+
+.responsiveButton li a {
+}
+/*
+#availableimg {
+    width: 500px;
+    max-width: 100%;
+}
+#logo {
+    width: 200px;
+    max-width: 100%;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+}
+header, footer {
+    font-family: 'Open Sans', sans-serif;
+    color: #4cc9f0;
+    background-color: #3a0ca3;
+    padding: 10px 0;
+
+}
+h1 {
+    margin: 0 10px;
+}
+h2  {
+    color: #7209b7;
+    margin: 40px 0 10px 0;
+}
+h3 {
+    color: #4361ee;
+    margin: 30px 0 5px 0;
+}
+#allcontent {
+    min-width: 375px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+nav {
+    background-color: #4cc9f0;
+    text-align: center;
+}
+ul  {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+nav li a {
+    display: block;
+    color: #3a0ca3;
+    text-align: center;
+    text-decoration: none;
+    padding: 5px 0;
+    
+}
+nav ul li a:hover {
+    background-color: #3a0ca3;
+    color: #4cc9f0;
+}
+#currentPage {
+    text-decoration: underline;
+}
+#colorsImg {
+    width: 400px;
+    max-width: 100%;
+}
+#robotoFont {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2em;
+}
+#opensansFont {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.2em;
+}
+
+.person {
+    width: 300px;
+    max-width: 100%;
+}
+
+*/
