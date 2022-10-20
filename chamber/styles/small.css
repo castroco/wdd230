@@ -1,3 +1,7 @@
+body {
+    max-width: 1200px;
+    font-family: 'Roboto', sans-serif;
+}
 header {
     font-family: 'Open Sans', sans-serif;
     display: grid;
@@ -69,6 +73,11 @@ header {
 .navigation li a {
     text-decoration: none;
 }
+.navigation li a:hover {
+    background-color: #f72585;
+    color: yellow;
+}
+
 .navigationButton li a {
     text-decoration: none;
     color: #4cc9f0;
@@ -85,8 +94,10 @@ header {
     text-align: center;
 }
 
-.responsiveButton li a {
+main div picture img {
+    max-width: 100%;
 }
+
 /*
 #availableimg {
     width: 500px;

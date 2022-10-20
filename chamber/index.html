@@ -9,7 +9,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/normailze.css">
-    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/small.css">
     <link rel="stylesheet" href="styles/medium.css">
     <script src="scripts/chamber.js" defer></script>
 </head>
@@ -38,11 +38,17 @@
                 <li><a href="#">Page 3</a></li>
             </ul>
         </nav>
-
     </header>
         
     <main>
         <div id="heroDiv">
+            <picture id="heroContainer">
+                <source media="(max-width: 500px)" srcset="images/small.jpg">
+                <source media="(min-width: 500px) and (max-width: 800px)" srcset="images/medium.jpg">
+                <source media="(min-width: 800px)" srcset="images/large.jpg">
+                <img id="hero-img" src="images/small.jpg" alt="main hero picture"> 
+            </picture>
+        </div>
            
         </div>
         <div id="eventsDiv" >
