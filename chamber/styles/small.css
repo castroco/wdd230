@@ -22,7 +22,9 @@ header {
     width: 30px;
     margin-left: 0px;
 }
-
+#heroDiv {
+    grid-area: heroDiv;
+}
 #faviconImg {
     grid-area: faviconImg;
     width: 60px;
@@ -61,8 +63,6 @@ header {
     grid-area: timeInfo;
 }
 
-
-
 .navigationButton li {
 	display: block;
 }
@@ -94,8 +94,55 @@ header {
     text-align: center;
 }
 
+main, header, footer {
+    min-width: 415px;
+}
+
+main div {
+    border: 2px solid black;
+    height: 200px;
+}
+main div div {
+    border: 1px solid black;
+    height: 200px;
+}
+
+#spotlightDiv3 {
+    display: none;
+}
+
+#heroDiv {
+    overflow: hidden;
+    height: auto;
+}
+
 main div picture img {
     max-width: 100%;
+}
+
+#eventDiv {
+    background-color: red;
+}
+
+#weatherDiv {
+    text-align: center;
+    background-color: #f72585;
+    color: #4cc9f0;
+    
+}
+#weatherDiv h2 {
+    margin: 0;
+    padding-top: 10px;
+}
+
+footer {
+    background-color: #3a0ca3;
+    color: #4cc9f0;
+    padding: 10px 0;
+    text-align: center;
+}
+footer p {
+    margin: 10px 0;
 }
 
 /*

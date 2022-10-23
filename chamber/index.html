@@ -11,11 +11,13 @@
     <link rel="stylesheet" href="styles/normailze.css">
     <link rel="stylesheet" href="styles/small.css">
     <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
     <script src="scripts/chamber.js" defer></script>
+    <script src="scripts/windchill.js" defer></script>
 </head>
 <body>  
     <header>
-        <img id="faviconImg" src="images/favicon.svg" alt="">
+        <img id="faviconImg" src="images/faviconwebp.webp" alt="">
         <div id="title">
             <h1>Santiago Sur</h1>
             <h2>Chamber of Commerce</h2>
@@ -49,11 +51,15 @@
                 <img id="hero-img" src="images/small.jpg" alt="main hero picture"> 
             </picture>
         </div>
-           
-        </div>
         <div id="eventsDiv" >
         </div>
-        <div id="weatherDiv"></div>
+        <div id="weatherDiv">
+            <h2>Weather</h2>
+            <p>Temperature: <span id="tempValue">4.61</span></p>
+            <p>Partly Cloudy</p>
+            <p>Wind Speed: <span id="speedValue">4.61</span> </p>
+            <p>Wind Chill: <span id="windchillValue">N/A</span></p>
+        </div>
         <div id="newsDiv">
         </div>
         <div id="spotlightsDiv">

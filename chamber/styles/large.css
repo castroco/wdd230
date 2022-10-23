@@ -1,0 +1,22 @@
+@media only screen and (min-width: 800px) {
+
+    #spotlightDiv3 {
+        display: block;
+    }
+    #spotlightsDiv {
+        height: 620px;
+        display: grid;
+        grid-template-columns:  1fr;
+        align-content:stretch;
+    }
+
+    main {
+        display: grid;
+        grid-template-columns: 1fr 2.5fr 1fr;
+        gap: 4px;
+        grid-template-areas: 
+        "eventsDiv heroDiv spotlightsDiv"
+        "weatherDiv heroDiv spotlightsDiv"
+        "joinDiv newsDiv spotlightsDiv";
+    }
+}
