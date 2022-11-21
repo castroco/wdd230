@@ -144,7 +144,7 @@ main div picture img {
 #weatherDiv :nth-of-type(2) {
     margin: 0 0 6px 0;
 }
-#weatherDiv :nth-of-type(3), :nth-of-type(4) {
+#weatherDiv :nth-of-type(3), #weatherDiv :nth-of-type(4) {
     margin: 6px 0;
 }
 
