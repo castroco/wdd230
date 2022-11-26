@@ -1,5 +1,7 @@
 const jsonData = "https://castroco.github.io/wdd230/chamber/info/data.json";
-/*cardsContainer = document.querySelector('div.cards');*/
+cardsContainer = document.querySelector('#cardsContainer');
+console.log("cardsContainer:", cardsContainer);
+
 
 fetch(jsonData).then(function (response) {
     return response.json();
@@ -9,33 +11,42 @@ fetch(jsonData).then(function (response) {
             console.log("jsonObjectCompaniesData: ", jsonObject);
             companies = jsonObject['companies'];
             console.log("companies: ", companies);
-            /*companies.forEach(displayCompanies);*/
+            companies.forEach(showCompany);
         }
     );
 
-/*function displayCompanies(company) {  
-    let card = document.createElement('section');
-    let image = document.createElement('img');
-    let name = document.createElement('p');
-    let address = document.createElement('p');
-    let phone = document.createElement('p');
-    let website = document.createElement('p');
+function showCompany(singleCompany) {  
+    let companyCard = document.createElement('section');
+    let companyImage = document.createElement('img');
+    let companyName = document.createElement('h3');
+    let companyAddress = document.createElement('p');
+    let companyPhone = document.createElement('p');
+    let companyLevel = document.createElement('p');
+    let companyLink = document.createElement('a');
     
-    name.textContent = `${company.name}`;
-    website.textContent = `${company.website}`;
-    address.textContent = `${company.address}`;
-    phone.textContent = `${company.phone}`;
-    image.setAttribute('src', company.logo);
-    image.setAttribute('alt', `Logo of the company`);
-    card.appendChild(image);
-    card.appendChild(name);
-    card.appendChild(address);
-    card.appendChild(phone);
-    card.appendChild(website);
-    cardsContainer.appendChild(card);
+    companyImage.setAttribute('src', singleCompany.icon);
+    companyImage.setAttribute('alt', `Company Icon`);
+    /*console.log("random number: ", Math.floor(Math.random() * 3));*/
+    companyName.textContent = `${singleCompany.name}`;
+    companyAddress.textContent = `${singleCompany.address}`;
+    companyPhone.textContent = `${singleCompany.phone}`;
+    companyLevel.textContent = `${singleCompany.level}`;
+    companyLink.textContent = `${singleCompany.website}`;
+    
+    
+    
+    companyCard.appendChild(companyImage);
+    companyCard.appendChild(companyName);
+    companyCard.appendChild(companyAddress);
+    companyCard.appendChild(companyPhone);
+    companyCard.appendChild(companyLevel);
+    companyCard.appendChild(companyLink);
+    cardsContainer.appendChild(companyCard);
 }
 
-const cardsButton = document.querySelector("#cardsIcon");
+
+
+/*const cardsButton = document.querySelector("#cardsIcon");
 cardsButton.addEventListener("click", () => {
     cardsContainer.classList.replace("displayList","displayCards");
 });
