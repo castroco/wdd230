@@ -54,12 +54,12 @@ console.log("HCL0: ", typeof(highLevelcomp));
 
 
 
-/*const cardsButton = document.querySelector("#cardsIcon");
-cardsButton.addEventListener("click", () => {
-    cardsContainer.classList.replace("displayList","displayCards");
+const cardButton = document.querySelector("#cardButton");
+cardButton.addEventListener("click", () => {
+    cardsContainer.classList.replace("list","grid");
 });
 
-const listButton = document.querySelector("#listIcon");
+const listButton = document.querySelector("#listButton");
 listButton.addEventListener("click", () => {
-    cardsContainer.classList.replace("displayCards","displayList");
-});*/
+    cardsContainer.classList.replace("grid","list");
+});
