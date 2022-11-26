@@ -8,7 +8,7 @@
         {"icon": "./images/ripley.svg","name": "Ripley", "address": "2314 Las Nieves Avenue ID 65397", "phone": "(374) 653-3476", "website": "https://simple.ripley.cl", "level": 3},
         {"icon": "./images/corona.png","name": "Corona", "address": "6576 Corona Avenue ID 85623", "phone": "(845) 365-4276", "website": "https://www.corona.cl", "level": 4},
         {"icon": "./images/cristal.jpg","name": "Cristal Lagoons", "address": "3623 Cristal Avenue ID 84632", "phone": "(372) 563-5643", "website": "https://www.crystal-lagoons.com", "level": 3},
-        {"icon": "./images/latam.jpg","name": "Ram Computing", "address": "9992 Canon Avenue ID 34562", "phone": "(234) 234-4356", "website": "http://www.ramcomputing.cl/", "level": 2},
-        {"icon": "./images/latam.jpg","name": "Portal Puente Alto", "address": "34567 Park Avenue ID 53675", "phone": "(340) 327-1690", "website": "https://www.portalpuentealto.cl", "level": 2}
+        {"icon": "./images/lider.svg","name": "Lider", "address": "3259 Concha y Toro Avenue ID 35463", "phone": "(936) 543-4365", "website": "https://www.lider.cl", "level": 2},
+        {"icon": "./images/jumbo.jpg","name": "Jumbo", "address": "54678 Smile Avenue ID 54364", "phone": "(435) 463-94634", "website": "https://www.jumbo.cl", "level": 4}
     ]
 }
