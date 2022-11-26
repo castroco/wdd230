@@ -1,7 +1,7 @@
 {
     "companies": [
         {"icon": "./images/latam.jpg","name": "Latam Airlines", "address": "1000 Perk Avenue ID 81564", "phone": "(305) 123-4567", "website": "https://www.latamairlines.com", "level": 1},
-        {"icon": "./images/latam.jpg","name": "Scotia Bank", "address": "2134 Alameda Avenue ID 83646", "phone": "(308) 777-9132", "website": "https://https://www.scotiabankchile.cl", "level": 2},
+        {"icon": "./images/codelco.png","name": "Codelco", "address": "1111 Alameda Avenue ID 88435", "phone": "(311) 345-0023", "website": "https://www.codelco.com", "level": 2},
         {"icon": "./images/latam.jpg","name": "Health Department", "address": "4536 Gordon Avenue ID 84560", "phone": "(305) 654-4356", "website": "https://www.minsal.cl", "level": 3},
         {"icon": "./images/latam.jpg","name": "La Araucana", "address": "5546 Rucamapu St. ID 83652", "phone": "(406) 230-1713", "website": "https://www.laaraucana.cl", "level": 2},
         {"icon": "./images/latam.jpg","name": "The Heros", "address": "1123 Las Condes Avenue ID 83652", "phone": "(234) 143-2345", "website": "https://www.losheroes.cl", "level": 2},
