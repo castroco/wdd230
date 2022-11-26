@@ -104,11 +104,12 @@ main {
 
 section {
     text-align: center;
-    margin: 0.75rem;
     border: 1px solid rgba(0, 0, 0, 0.1);
+    margin: 0.5rem 0;
 	padding: 0.5rem;
 	background-color: #feebf4;
     color: #3a0ca3;
+    max-width: 100%;
 }
 
 section img {
@@ -174,6 +175,21 @@ footer p {
     justify-content:center;
     align-items: center;
 }
+#cardButtons {
+    margin: 0 auto;
+    text-align: center;
+}
+
+#cardButtons button {
+    margin: 0.4rem 1rem;
+    padding: 0.4rem 1.5rem;
+    background-color: #f72585;
+}
+
+#cardButtons button:hover {
+    background-color: #ffffff;
+    border-color: #f72585;
+}
 
 #cardsContainer {
     grid-area: cardsContainer;
@@ -182,12 +198,14 @@ footer p {
 
 .grid {
     display: grid;
-	grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+	grid-template-columns: 1fr;
 	align-items: center;
 }
 .grid section {
+    display: flex;
 	flex-direction: column;
 	text-align: center;
+    padding: 2rem;
 }
 .list {
 	display: flex;
@@ -195,7 +213,9 @@ footer p {
 }
 .list section {
 	display: flex;
+    flex-direction: column;
 	align-items: center;
+    padding: 0.5rem;
 }
 .list section > * {
 	margin: 0 1rem;
