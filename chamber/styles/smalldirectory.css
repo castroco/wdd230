@@ -175,3 +175,33 @@ footer p {
     align-items: center;
 }
 
+#cardsContainer {
+    grid-area: cardsContainer;
+    margin: 0 auto;
+}
+
+.grid {
+    display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+	align-items: center;
+}
+.grid section {
+	flex-direction: column;
+	text-align: center;
+}
+.list {
+	display: flex;
+	flex-direction: column;
+}
+.list section {
+	display: flex;
+	align-items: center;
+}
+.list section > * {
+	margin: 0 1rem;
+	text-align: left;
+}
+.list section img {
+	display: none;
+}
+

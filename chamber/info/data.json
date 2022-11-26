@@ -5,10 +5,10 @@
         {"icon": "./images/maconline.png","name": "Mac Online", "address": "1834 Gordon Avenue ID 84560", "phone": "(283) 756-4365", "website": "https://www.maconline.com", "level": 3},
         {"icon": "./images/lascondes.svg","name": "Las Condes Clinic", "address": "4536 Ruca Avenue ID 45367", "phone": "(243) 543-7654", "website": "https://www.clinicalascondes.cl", "level": 2},
         {"icon": "./images/colors.svg","name": "Coolors", "address": "5432 Bravo Avenue ID 4365", "phone": "(453) 436-4323", "website": "https://coolors.co", "level": 2},
-        {"icon": "./images/ripley.svg","name": "Ripley", "address": "2314 Las Nieves Avenue ID 65397", "phone": "(374) 653-3476", "website": "https://simple.ripley.cl", "level": 3},
+        {"icon": "./images/ripley.jpg","name": "Ripley", "address": "2314 Las Nieves Avenue ID 65397", "phone": "(374) 653-3476", "website": "https://simple.ripley.cl", "level": 3},
         {"icon": "./images/corona.png","name": "Corona", "address": "6576 Corona Avenue ID 85623", "phone": "(845) 365-4276", "website": "https://www.corona.cl", "level": 4},
         {"icon": "./images/cristal.jpg","name": "Cristal Lagoons", "address": "3623 Cristal Avenue ID 84632", "phone": "(372) 563-5643", "website": "https://www.crystal-lagoons.com", "level": 3},
-        {"icon": "./images/lider.svg","name": "Lider", "address": "3259 Concha y Toro Avenue ID 35463", "phone": "(936) 543-4365", "website": "https://www.lider.cl", "level": 2},
-        {"icon": "./images/jumbo.jpg","name": "Jumbo", "address": "54678 Smile Avenue ID 54364", "phone": "(435) 463-94634", "website": "https://www.jumbo.cl", "level": 4}
+        {"icon": "./images/lider.jpg","name": "Lider", "address": "3259 Concha y Toro Avenue ID 35463", "phone": "(936) 543-4365", "website": "https://www.lider.cl", "level": 2},
+        {"icon": "./images/jumbo.png","name": "Jumbo", "address": "54678 Smile Avenue ID 54364", "phone": "(435) 463-94634", "website": "https://www.jumbo.cl", "level": 4}
     ]
 }

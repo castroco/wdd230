@@ -21,15 +21,6 @@ nav ul li {
     flex: 1 1 100%;
 }
 
-#cardsContainer {
-    grid-area: cardsContainer;
-    margin: 0 auto;
-}
 
-.grid {
-    display: grid;
-	grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-	align-items: center;
-}
 
 }
