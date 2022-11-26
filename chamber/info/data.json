@@ -4,7 +4,7 @@
         {"icon": "./images/codelco.png","name": "Codelco", "address": "1111 Alameda Avenue ID 88435", "phone": "(311) 345-0023", "website": "https://www.codelco.com", "level": 2},
         {"icon": "./images/maconline.png","name": "Mac Online", "address": "1834 Gordon Avenue ID 84560", "phone": "(283) 756-4365", "website": "https://www.maconline.com", "level": 3},
         {"icon": "./images/lascondes.svg","name": "Las Condes Clinic", "address": "4536 Ruca Avenue ID 45367", "phone": "(243) 543-7654", "website": "https://www.clinicalascondes.cl", "level": 2},
-        {"icon": "./images/latam.jpg","name": "The Heros", "address": "1123 Las Condes Avenue ID 83652", "phone": "(234) 143-2345", "website": "https://www.losheroes.cl", "level": 2},
+        {"icon": "./images/colors.svg","name": "Coolors", "address": "5432 Bravo Avenue ID 4365", "phone": "(453) 436-4323", "website": "https://coolors.co", "level": 2},
         {"icon": "./images/latam.jpg","name": "Pizza Pizza", "address": "3452 Cordillera Avenue ID 84325", "phone": "(243) 456-4321", "website": "https://www.pizzapizza.cl/", "level": 3},
         {"icon": "./images/latam.jpg","name": "Seven Pizza", "address": "3412 Baquedano Avenue ID 43567", "phone": "(345) 375-5367", "website": "https://sevenpizza.cl/", "level": 4},
         {"icon": "./images/latam.jpg","name": "Del sol Pizza", "address": "3453 Ohiggins Avenue ID 32457", "phone": "(205) 346-7493", "website": "https://www.pizzeriadelsol.cl/", "level": 3},
