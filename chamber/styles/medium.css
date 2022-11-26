@@ -45,6 +45,16 @@ nav ul li {
     grid-area: joinDiv;
 }
 
+#cardsContainer {
+    grid-area: cardsContainer;
+    margin: 0 auto;
+}
+.grid {
+    display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+	align-items: center;
+}
+
 main {
     display: grid;
     grid-template-columns: 2fr 1fr;

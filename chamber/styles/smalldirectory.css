@@ -96,18 +96,28 @@ header {
 #currentPage {
     text-decoration: underline;
 }
+/*just for directory web page down*/
+main {
+    margin: 0 auto;
+    padding: 0.5rem;
+}
+
+section {
+    text-align: center;
+    margin: 0.75rem;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+	padding: 0.5rem;
+	background-color: #feebf4;
+    color: #3a0ca3;
+}
+
+section img {
+    max-width: 100%;
+}
+/*just for directory web pag up */
 
 main, header, footer {
     min-width: 415px;
-}
-
-main div {
-    border: 2px solid black;
-    height: 200px;
-}
-main div div {
-    border: 1px solid black;
-    height: 200px;
 }
 
 #spotlightDiv3 {
@@ -165,9 +175,3 @@ footer p {
     align-items: center;
 }
 
-.grid {
-    margin: 0 auto;
-    display: grid;
-	grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-	align-items: center;
-}
