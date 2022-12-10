@@ -1,7 +1,6 @@
 const jsonData = "https://castroco.github.io/wdd230/chamber/info/data.json";
 cardsContainer = document.querySelector('#cardsContainer');
 console.log("cardsContainer:", cardsContainer);
-let highLevelcomp = [];
 
 
 fetch(jsonData).then(function (response) {
@@ -27,17 +26,13 @@ function showCompany(singleCompany) {
     
     companyImage.setAttribute('src', singleCompany.icon);
     companyImage.setAttribute('alt', `Company Icon`);
-    /*console.log("random number: ", Math.floor(Math.random() * 3));*/
     companyName.textContent = `${singleCompany.name}`;
     companyAddress.textContent = `${singleCompany.address}`;
     companyPhone.textContent = `${singleCompany.phone}`;
     companyLevel.textContent = `Membership Level: ${singleCompany.level}`;
-    if (singleCompany.level > 3) {
-        highLevelcomp.push(singleCompany);
-    }
     companyLink.setAttribute('href', singleCompany.website);
     companyLink.setAttribute('target', '_blank');
-    companyLink.textContent = `Visit Webite`;
+    companyLink.textContent = `Visit Website`;
     
     
     
@@ -49,8 +44,6 @@ function showCompany(singleCompany) {
     companyCard.appendChild(companyLink);
     cardsContainer.appendChild(companyCard);
 }
-console.log("HCL: ", highLevelcomp);
-console.log("HCL0: ", typeof(highLevelcomp));
 
 
 

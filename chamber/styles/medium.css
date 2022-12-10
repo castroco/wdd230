@@ -24,6 +24,13 @@ nav ul li {
 #heroDiv {
     grid-area: heroDiv;
 }
+#heroDiv h2 {
+    margin: 20px 0;
+}
+#heroDiv button {
+    margin: 0 25px 25px 0;
+    padding: 22px 25px;
+}
 #eventsDiv {
     grid-area: eventsDiv;
 }
@@ -55,7 +62,7 @@ nav ul li {
 	align-items: center;
 }
 
-main {
+#mainHome {
     display: grid;
     grid-template-columns: 2fr 1fr;
     gap: 4px;
@@ -65,6 +72,31 @@ main {
     "spotlightsDiv spotlightsDiv"
     "joinDiv joinDiv"
     "eventsDiv weatherDiv";
+}
+#mainContact {
+    max-width: 70%;
+    margin: 0 auto;
+}
+#mainContact div {
+    position: relative;
+}
+
+#mainContact div p:nth-of-type(1) {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    background-color: #4cc9f0;
+    padding: 10px;
+    margin: 0;
+}
+
+#mainContact div p:nth-of-type(2) {
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+    background-color: #4cc9f0;
+    padding: 10px;
+    margin: 0;
 }
 
 }

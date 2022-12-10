@@ -184,6 +184,7 @@ footer p {
     margin: 0.4rem 1rem;
     padding: 0.4rem 1.5rem;
     background-color: #f72585;
+    border-radius: 10px;
 }
 
 #cardButtons button:hover {

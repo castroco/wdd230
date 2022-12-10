@@ -1,5 +1,12 @@
 @media only screen and (min-width: 800px) {
 
+    #heroDiv button {
+        margin: 0 20px 20px 0;
+        padding: 15px 15px;
+    }
+    #heroDiv h2 {
+        margin: 10px 0;
+    }
     #spotlightDiv3 {
         display: block;
     }
@@ -10,7 +17,7 @@
         align-content:stretch;
     }
 
-    main {
+    #mainHome {
         display: grid;
         grid-template-columns: 1fr 2.5fr 1fr;
         gap: 4px;

@@ -34,51 +34,35 @@
         <div id="timeInfo"></div>
         <nav id="colapsableNav">
             <ul id="colapsableList" class="navigation">
-                <li><a id="currentPage" href="index.html">Home</a></li>
+                <li><a href="index.html">Home</a></li>
                 <li><a href="discover.html">Discover</a></li>
                 <li><a href="directory.html">Directory</a></li>
-                <li><a href="contact.html">Contact</a></li>
+                <li><a id="currentPage" href="contact.html">Contact</a></li>
             </ul>
         </nav>
     </header>
-        
-    <main id="mainHome">
-        <div id="heroDiv">
-            <h2>Welcome to Santiago</h2>
-            <picture id="heroContainer">
-                <source media="(max-width: 500px)" srcset="images/small.jpg">
-                <source media="(min-width: 500px) and (max-width: 800px)" srcset="images/medium.jpg">
-                <source media="(min-width: 800px)" srcset="images/large.jpg">
-                <img id="hero-img" src="images/small.jpg" alt="main hero picture"> 
-            </picture>
-            <button>Join the Chamber</button>
-        </div>
-        <div id="eventsDiv">
-        </div>
-        <div id="weatherDiv">
-            <h2>Weather</h2>
-            <p id="conditionValue">Partly Cloudy</p>
-            <img id="imageValue" src="images/default.png" alt="small image that describe the weather condition">
-            <p>Temperature: <span id="tempValue">4.61</span></p>
-            <p>Wind Speed: <span id="speedValue">4.61</span> </p>
-            <p>Wind Chill: <span id="windchillValue">N/A</span></p>
-        </div>
-        <div id="newsDiv">
-        </div>
-        <div id="spotlightsDiv">
-            <div class="spotlightDivs" id="spotlightDiv1">Spotlight</div>
-            <div class="spotlightDivs" id="spotlightDiv2">Spotlight</div>
-            <div class="spotlightDivs" id="spotlightDiv3">Spotlight</div>
-        </div>
-        <div id="joinDiv">
+    <main id="mainContact">
+        <h2>General Questions</h2>
+        <form method="GET" action="answer.html">
+            <fieldset>
+                <legend>Please write your question</legend>
+                <input placeholder="Full name" type="text" name="name" required>
+                <input placeholder="Email" type="email" name="email" required>
+                <input placeholder="Phone number" type="tel" name="phoneNumber">
+                <textarea placeholder="Question" name="question" id="questionArea" cols="25" rows="12"></textarea>
+            </fieldset>
+            
+            <input id="contactButton" type="submit" value="Send your question">  
+        </form>
+        <div>
+            <img id="contactMap" src="images/chambermap.jpg" alt="Map with the location of the chamber">
+            <p id="contactAddress">Pedro de Valdivia 1423, Las Condes, Chile</p>
+            <p id="contactHours">Monday to Friday from 9:00 to 16:00 hours</p>
         </div>
     </main>
-
     <footer>
         <p id="name"></p>
         <p id="lastupdate"></p>
     </footer>
-
-
 </body>
 </html>
