@@ -29,7 +29,7 @@ function showCompany(singleCompany) {
     companyName.textContent = `${singleCompany.name}`;
     companyAddress.textContent = `${singleCompany.address}`;
     companyPhone.textContent = `${singleCompany.phone}`;
-    companyLevel.textContent = `Membership Level: ${singleCompany.level}`;
+    companyLevel.textContent = `Membership Level: ${levelText2(singleCompany.level)}`;
     companyLink.setAttribute('href', singleCompany.website);
     companyLink.setAttribute('target', '_blank');
     companyLink.textContent = `Visit Website`;
@@ -45,6 +45,18 @@ function showCompany(singleCompany) {
     cardsContainer.appendChild(companyCard);
 }
 
+function levelText2(levelNumber) {
+    console.log("levelNumber: ", levelNumber);
+    if (levelNumber == 2) {
+        return "Bronce";
+    } else if (levelNumber == 3) {
+        return "Silver";
+    } else  if (levelNumber == 4) {
+        return "Gold";
+    } else {
+        return "Standard"
+    }
+}
 
 
 const cardButton = document.querySelector("#cardButton");

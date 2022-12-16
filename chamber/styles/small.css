@@ -152,7 +152,8 @@ main, header, footer {
     font-size: 1.5em;
     border-radius: 10px;
     color: #3a0ca3;
-    background-color: #f72585
+    background-color: #f72585;
+    z-index: 1;
 }
 
 main div picture img {
