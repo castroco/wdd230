@@ -1,6 +1,9 @@
 nav {
     background-color: #154e13;
 }
+nav ul {
+    list-style-type: none;
+}
 
 nav a:hover {
     background-color: rgba(255, 255, 255, 0.2);
