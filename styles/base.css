@@ -1,3 +1,11 @@
 nav {
     background-color: #154e13;
 }
+
+nav a:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+nav .active {
+    background-color: rgba(0, 0, 0, 0.3);
+}
