@@ -1,3 +1,7 @@
+body header img {
+    width: 100px;
+    height: 106px;
+}
 nav {
     background-color: #154e13;
 }
